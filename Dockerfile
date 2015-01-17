@@ -1,4 +1,4 @@
-FROM centos:centos6
-MAINTAINER me@prudhvi.net
+FROM centos:7
+MAINTAINER Prudhvi Krishna Surapaneni <prudhvi@supr.io>
 
-RUN yum install -y http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm tar openssh-server openssh-clients
+RUN yum install -y http://dl.fedoraproject.org/pub/epel/7/x86_64/epel-release-7-1.noarch.rpm tar openssh-server openssh-clients
